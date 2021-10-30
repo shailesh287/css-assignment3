@@ -1,0 +1,137 @@
+body{
+    background-color: grey;
+}
+.box{
+    border: 8px solid red;
+    height: 130px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.5;
+    padding-top: 25px;
+    color: purple;
+    text-shadow: 1.5px 1.5px grey;
+    box-shadow: 10px 10px rgb(173, 15, 173);
+}
+.offers {
+  position: fixed;
+  width: 500px;
+  text-align: center;
+  background-color: greenyellow;
+  bottom: 70px;
+  left: 35%;
+  font-size: larger;
+  padding: 10px 0px;
+  border: 6px solid red;
+  border-radius: 10px;
+  box-shadow: 4px 5px 2px #800080;
+  font-style: italic;
+  color: brown;
+}
+
+.offers table {
+  width: 100%;
+}
+
+
+#container {
+    margin: 5px;
+  position: relative;
+  width: 1300px;
+  height: 650px;
+  border: 10px solid green;
+}
+#container div {
+  position: absolute;
+  border: 8px solid red;
+    height: 210px;
+    width: 240px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-top: 25px;
+    color:rgb(29, 4, 53);
+    text-shadow: 1.5px 1.5px grey;
+    box-shadow: 10px 10px rgb(173, 15, 173);
+}
+.top {
+  top: 0;
+}
+.right {
+  right: 40px;
+}
+.bottom {
+  bottom: 50px;
+}
+.left {
+  left: 0;
+}
+img{
+  height: 150px;
+  width: 150px;
+  border: 2.5px solid black;
+  border-top: 0;
+}
+form{
+  text-shadow: 1px 1px grey;
+  font-size: 15px;
+  padding-top: 15px;
+}
+.lower-container{
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 5px solid purple;
+  height: 700px;
+  width: 65%;
+  text-align: center;
+  background-color: green;
+}
+.boxes{
+
+  height:295px;
+  width:420px;
+  margin-top: 20px;
+  background-color: #FFE699;
+}
+#box1{
+  float: left;
+  margin-left:5px ;
+
+}
+#box2{
+  float: right;
+  margin-right: 5px;
+ 
+}
+#box3{
+  position: absolute;
+  margin-left: 5px;
+  width: 865px;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+p{
+  font-style: italic;
+  line-height: 2;
+  font-size: 20px;
+  text-align: center;
+}
+button {
+  background-color: red;
+  color: black;
+  border-radius: 10px;
+  padding: 2px 5px;
+}
+
+input {
+  text-align: center;
+}
